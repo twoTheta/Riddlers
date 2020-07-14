@@ -1,3 +1,17 @@
+%% Friday July 10
+% Riddler Classic - Make 24
+% Use the basic arithmetic operators (+, -, *, /, ^) to combine the numbers
+% 2, 3, 3, and 4 to give 24. The code below computes ALL arithmetic
+% combination of these numbers and produces two arrays. The first (r4) 
+% contains the values of the operations and the second (r4L) contains
+% strings with the operations which resulted in the values in the
+% corresponding elements in r4. Care was taken not to double count
+% operations since there are two 3s given.
+%
+% Additionally, a histogram is made featuring the number of unique ways
+% each integer from 1 to 100 can be made using the four values and the
+% operators.
+
 %% Initialize Array
 % Put doubles in the middle to avoid double counting on number of ways.
 r1 = [2 3 3 4]; % Tracks numeric values
